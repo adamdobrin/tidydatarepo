@@ -2,11 +2,13 @@
 1. run_analysis.R
 2. tidyDataSet.txt
 2. create_codebook.R
-3. codeBook.md
+3. codebook.md
+4. codebook.txt
 4. README.md
+5. getdata-projectfiles-UCI HAR Dataset.zip
 
 ## run_analysis.R
-This R file contains functions to analyze the data, zipped or not, in the working directory. The code will take the standard deviation and mean features from the accelerometer data, and take their mean over each subject and activity. There are three functions:
+Contains functions to analyze the data, zipped or not, in the working directory. The code will take the standard deviation and mean features from the accelerometer data, and take their mean over each subject and activity. There are three functions:
 
 #### getTidyData()
 
@@ -26,12 +28,20 @@ Tidy data set returned from getTidyData(), above
 
 ## create_codebook.R
 
-Create codebook (codeBook.md) for tidy data set from features.txt.
+Contains a single function (createCodebook()) to create codebook (codebook.md and codebook.txt) for tidy data set from features.txt.
 
-## codeBook.md
+## codebook.md
 
-Codebook markdown for tidy data set
+Codebook for tidy data set (markdown)
+
+## codebook.txt
+
+Codebook for tidy data set (txt)
 
 ## README.md
 
 This readme markdown
+
+## getdata-projectfiles-UCI HAR Dataset.zip
+
+Zipped data; can also be found online (here)[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
