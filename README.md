@@ -28,7 +28,7 @@ Tidy data set returned from getTidyData(), above
 
 ## create_codebook.R
 
-Contains a single function (createCodebook()) to create codebook (codebook.md and codebook.txt) for tidy data set from features.txt.
+Contains a single function (createCodebook()) to create codebook (codebook.md and codebook.txt) for tidy data set from features.txt (in original data).
 
 ## codebook.md
 
